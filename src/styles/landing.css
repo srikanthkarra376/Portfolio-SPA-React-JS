@@ -1,0 +1,26 @@
+.landing-page {
+  width:1160px;
+  margin-left:200px;
+  position: absolute;
+  top:0;
+  height: 100vh;
+  padding:100px;
+  background-color:rgba(85, 64, 105, 0.157);
+}
+.showcase {
+ text-align: center;
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.showcase img {
+  width:150px;
+  height:200px;
+  border-radius:30%;
+}
+.showcase h1 {
+  font-size:3em;
+  font-weight:500;
+  margin:50px;
+}
