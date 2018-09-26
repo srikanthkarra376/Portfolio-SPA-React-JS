@@ -7,6 +7,11 @@ import Contact from './components/contact';
 import './App.css';
 import { BrowserRouter as Router, NavLink } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
+import { FaHome } from "react-icons/fa";
+import { FaUserTie } from "react-icons/fa";
+import { GoMail } from "react-icons/go";
+import { GoTasklist} from "react-icons/go";
+import { MdWork } from "react-icons/md";
 
 class App extends Component {
   render() {
@@ -15,13 +20,14 @@ class App extends Component {
          <div className="App">
          <ul>
           <li className="btn btn-success">
+           
             <NavLink to="/" exact activeStyle={
               { 
               color:'white',
                fontSize:'1.3em',
                transition:' .5s ease-in-out'
              }
-            }>Home</NavLink>
+            }>   <FaHome/></NavLink>
           </li>
           <li className="btn btn-success" >
             <NavLink to="/about" exact activeStyle={
@@ -29,7 +35,7 @@ class App extends Component {
                fontSize:'1.3em',
                transition:' .5s ease-in-out' 
               }
-            }>About</NavLink>
+            }><FaUserTie/></NavLink>
           </li>
           <li  className="btn btn-success">
             <NavLink to="/experience" exact activeStyle={
@@ -37,7 +43,7 @@ class App extends Component {
                fontSize:'1.3em',
                transition:' 0.5s ease-in-out'
                }
-            }>work</NavLink>
+            }><MdWork/></NavLink>
           </li>
           <li  className="btn btn-success">
             <NavLink to="/projects" exact activeStyle={
@@ -45,7 +51,7 @@ class App extends Component {
                fontSize:'1.3em',
                transition:' 0.5s ease-in-out' 
               }
-            }>projects</NavLink>
+            }> <GoTasklist/></NavLink>
          </li>
          <li  className="btn btn-success">
              <NavLink to="/contact" exact activeStyle={
@@ -53,7 +59,7 @@ class App extends Component {
                fontSize:'1.3em',
                transition:' 0.5s ease-in-out'
                }
-            }>contact</NavLink>
+            }><GoMail/>  </NavLink>
          </li>
           </ul>
           <Route path="/" exact strict render={() =>{

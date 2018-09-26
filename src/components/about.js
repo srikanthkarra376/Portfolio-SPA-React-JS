@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import'../styles/About.css';
 
 class about extends Component {
   render() {
     return (
-     <div className="landing-page">
-    <h1>About-Page works</h1> 
+     <div className="about-page">
+    <h1>About-me</h1> 
      </div>
     );
   }

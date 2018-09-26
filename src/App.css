@@ -11,7 +11,7 @@
   height:100vh;
 }
 .App ul li  {
-margin:10px;
+margin:30px;
 margin-top:50px;
 cursor: pointer;
 font-size: 1.5em;
@@ -19,12 +19,6 @@ padding:5px 45px;
 border-radius:4px;
 }
 
-.App ul li:nth-child(3) {
-  padding:5px 48px; 
-}
-.App ul li:nth-child(4),.App ul li:nth-child(5){
-  padding:5px 35px; 
-}
  
 .App ul li a{
   text-decoration: none;

@@ -1,11 +1,11 @@
 .landing-page {
-  width:1140px;
+  width:1165px;
   margin-left:200px;
   position: absolute;
   top:0;
   height: 100vh;
   padding:50px;
-  background-image: url(../images/srikanth3.jpeg), linear-gradient(to right, #000000, #434343);
+  background-image: url(../images/landing1.jpeg), linear-gradient(to right, #000000, #241616);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size:center;
@@ -18,8 +18,8 @@
   text-align: center;
   width: 100%;
   padding: 10px;
-  
-  
+  z-index: 1;
+  font-size:2.5em;
 }
 
 
@@ -27,8 +27,20 @@
   font-size:3em;
   font-weight:500;
   margin:50px;
-  color:#ffffff;
+  color:yellow;
+  font-weight: 400;
+ 
 }
 .showcase h3 {
-  color:red;
+  color:rgb(12, 243, 155);
+  font-size:1.5em;
+  margin:50px;
+  font-weight: 300;
+}
+.showcase h4 {
+  font-size:1em;
+  margin:50px;
+  z-index:-1;
+
+
 }
